@@ -1,4 +1,4 @@
-# Avian simulations used for testing Phlag
+# Avian ARG and gene tree simulations used to test Phlag
 This repository contains the simulated gene trees, the input species trees, and the simulation scripts used to benchmark Phlag.
 
 ## Files
