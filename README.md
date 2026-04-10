@@ -1,4 +1,4 @@
-# Avian ARG and gene tree simulations used to test Phlag
+# Avian gene tree simulations used to test Phlag
 This repository contains the simulated gene trees, the input species trees, and the simulation scripts used to benchmark Phlag.
 
 ## Files
@@ -11,7 +11,7 @@ This repository contains the simulated gene trees, the input species trees, and 
   * `popsize_decrease_10x-{BRANCH}-500Kb-{IDX}.gtrees`: 10x population size decrease on branch `BRANCH`, the rest is the same as the baseline simulations.
   * For all scenarios, files with `concat-*` prefix in their name contain the same gene trees in `IDX` but in a concatenated form (in a random order).
 
-- `phlag-avian-simulations/estimated-genetrees`: Species trees with branch lengths in different units.
+- `phlag-avian-simulations/main-speciestrees`: Species trees with branch lengths in different units.
   * `63K.tre` and `63K_dated.tre`: The avian trees (main Stiller2024) with CU branch lengths and in time (million years), respectively.
   * `castlespro_stiller.rooted.tre` and `castlespro_stiller.tre` in substitution units, branch lengths estimated by CASTLES-pro.
   * `main-avian-numgen.nwk` and `main-neoaves-numgen.nwk` trees used in ARG simulations, branch lengths in number of generations.
