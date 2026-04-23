@@ -1,4 +1,6 @@
 # Avian gene tree simulations used to test Phlag
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19713355.svg)](https://doi.org/10.5281/zenodo.19713355)
+
 This repository contains the simulated gene trees, the input species trees, and the simulation scripts used to benchmark Phlag.
 
 ## Files
