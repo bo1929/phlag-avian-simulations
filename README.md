@@ -3,6 +3,10 @@
 
 This repository contains the simulated gene trees, the input species trees, and the simulation scripts used to benchmark Phlag.
 
+> Şapcı AOB, Arasti S, Braun EL, Mirarab S. **Phlag: Scalable detection of genomic regions with unexplained phylogenetic heterogeneity.** Bioinformatics, ISMB issue (2026).
+
+Phlag is available at [github.com/bo1929/phlag](https://github.com/bo1929/phlag).
+
 ## Files
 - `phlag-avian-simulations/estimated-genetrees`: Gene trees that were estimated from sequences simulated by msprime using IQTREE.
   * `avian-500Kb-{IDX}.gtrees`: gene trees for the entire avian tree, each `IDX` is independent, `concat-avian.gtrees` is the concatenated version of all these blocks.
